@@ -1,0 +1,22 @@
+.post-profile-pic{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;   
+}
+.sub-title{
+    margin-top: -14px;
+}
+@media screen  and (max-width:500px){
+    .three-dot{
+        margin-top: -50px;
+    }
+    .lcs-icon{
+        margin-top: 12px !important;
+    }
+    .likes{
+     margin-top: -22px !important;
+    }
+    .post-time{
+      margin-left: 10px !important;
+    }
+}
