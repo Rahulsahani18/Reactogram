@@ -21,7 +21,7 @@ const NavBar = () => {
     <div>
       <nav className="navbar navbar-light bg-light shadow">
         <div className="container-fluid">
-          <NavLink className="navbar-brand ms-5 " to='posts'>
+          <NavLink className="navbar-brand ms-5 " >
             <img alt='logo' src={logo} style={{ height: "40px", marginTop: "5px" }} />
           </NavLink>
           <form className="d-flex me-md-5" role='search'>
