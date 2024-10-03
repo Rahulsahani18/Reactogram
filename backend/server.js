@@ -11,10 +11,7 @@ global.__basedir= __dirname;
 const PORT=5000;
 
 const app=express();
-app.use(cors({
-  origin: 'https://reactogram-bay.vercel.app/', // Replace with your actual Vercel app URL
-}));
-
+app.use(cors());
 app.use(express.json());
 
 connectDB();
