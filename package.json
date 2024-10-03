@@ -5,7 +5,8 @@
   "frontend": "npm start --prefix frontend",
   "backend": "npm start --prefix backend",
   "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
-  "build": "npm run build --prefix frontend"
+  "build": "cd frontend && npm run build"
+
 },
 
   "devDependencies": {
