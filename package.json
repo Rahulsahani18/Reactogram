@@ -1,12 +1,12 @@
 {
   "name": "instagram",
   "version": "1.0.0",
-   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+"scripts": {
+  "frontend": "npm start --prefix frontend",
+  "backend": "npm start --prefix backend",
+  "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
+  "build": "set NODE_OPTIONS=--openssl-legacy-provider && npm run build --prefix frontend"
+},
 
   "devDependencies": {
     "concurrently": "^9.0.1"
