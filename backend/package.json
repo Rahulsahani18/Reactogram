@@ -15,6 +15,7 @@
     "multer": "^1.4.5-lts.1",
     "router": "^2.0.0"
   },
+  "scripts":{
     "frontend": "npm start --prefix frontend",
     "backend": "npm start --prefix backend",
     "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
@@ -24,4 +25,5 @@
     "concurrently": "^9.0.1",
     "nodemon": "^3.1.4"
   }
+}
 
